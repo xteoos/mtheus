@@ -1,0 +1,80 @@
+
+
+
+    :root{
+        --cinza:rgb(168, 168, 168);
+    
+    }
+    
+    h1{
+    color:white;
+    font-size: 90px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    padding:50px 77px 0px 77px;
+    
+    
+    }
+    
+    p{
+    
+        color:var(--cinza,yellow);
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
+        padding:50px 77px 5px 77px;
+        margin:0px 10px 0px 10px;
+        font-weight: 400;
+    
+    
+    }
+    body { 
+    background-color:black;
+    padding: 15px 77px 20px 77px;
+    
+    }
+    
+    #comeco{
+        color:white;
+        margin:-20px 0px -60px 10px;
+    
+    }
+    
+    .Texto{
+        font-weight:200;
+    
+        
+    }
+    
+    @media (max-width: 600px) {
+        h1{
+    color:white;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    text-align:left;
+    padding:50px 0px 5px 0px;
+    font-weight:600;
+
+    
+    
+    }
+    
+    p{
+        font-size: 20px;
+        padding:50px 0px 5px 0px;
+        line-height:30px;
+        margin:0px 5px 0px 5px;
+
+    
+    
+    }
+    
+    .Texto{
+        font-weight:200;
+    
+    }
+    #comeco{
+        color:white;
+        margin:-20px 0px -60px 5px;
+    
+    }
+}
