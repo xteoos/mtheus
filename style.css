@@ -23,7 +23,7 @@
         animation: spin 0.4s linear 7;
         padding: 70px 70px 0px 0px;
         text-align: left;
-        margin-left: -100px;
+        margin-left: -70px;
         margin-top: 20px;
 
       }
@@ -115,10 +115,10 @@
     grid-template-rows: auto;
     }
     .mao {
-        font-size:47px;
+        font-size:70px;
         animation: spin 0.4s linear 4;
         text-align: center;
-        padding: 150px 30px 0px 0px;
+        padding: 100px 30px 0px 0px;
       }
       
       @keyframes spin {
@@ -130,4 +130,4 @@
        }100% {
         transform: rotateZ(0deg);
        }
-      }
+      
