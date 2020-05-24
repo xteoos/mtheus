@@ -243,9 +243,12 @@
         padding: 100px 30px 0px 0px;
       }
       .social-menu ul {
-        position: absolute;
-        top: 170%;
-      
+        position:absolute
+        top: 220%;
+        padding: 100px 30px 30px 30px;
+        margin: 200px 30px 30px 0px;
+
+      }
       @keyframes spin {
        0% {
         transform: rotateZ(0deg);
